@@ -163,6 +163,20 @@
       .nav-link:hover{
         border-bottom: solid 1.5px white;
       }
+      @media screen and (max-width:1399px) {
+        #projectalign{
+        
+        }
+      }
+      /* @media screen and (max-width:767px) and (min-width:426px) {
+        #img1{ */
+
+          transform: scale(1.8);
+        }
+        #home{
+          margin: auto;
+        }
+      }
     </style>
   </head>
 
@@ -211,7 +225,7 @@
         <!-- first oka row create cheskoni dantlo oka rendu cols pettukuntey bestu -->
         <div class="row align-items-lg-center justify-content-md-center">
           <!-- idi vachesi row 1 col1 typo left untadhi large screen ki half width antey 6col width ,ade mobile device col-1 width space  -->
-          <div class="col  col-lg-6 col-md-1">
+          <div class="col  col-lg-6 col-md-4">
             <h4 class="fw-semibold">Hello I'm</h4>
             <h1  id="name" class="fw-bolder ">SAIKUMAR DARISETTI</h1>
             <h4 class="fw-semibold">Front-End Web Developer</h4>
@@ -222,9 +236,10 @@
               <a href="#getintouch" class="p-2.5">Let's Connect</a>
             </div>
           </div>
+          
           <!-- ikkada row 1- col2 idhi kuda same for right image -->
-          <div class="col-lg-6 col-md-1">
-          <img src="./ASSESTS/Developer activity-bro.png"  class="img-fluid h-50"  alt="">
+          <div class="col-lg-6 col-md-4 ">
+          <img src="./ASSESTS/Developer activity-bro.png"  class="img-fluid h-50 " id="img1"  alt="img1">
           </div>
         </div>
       </div>
@@ -290,13 +305,18 @@
       </div>
     </section>
 
+
+<!-- ===================================   projects   ======================================== -->
+
     <!-- uff oka pani ayiopoindhi next projects konni pedadam mothaam eduku le -->
     <section>
-      <div  id="projectalign" class="container">
-        <div class="row column-gap-lg-3">
+      <div  id="projectalign" class="container-lg ">
+        <div class="row column-gap-lg-3  ">
           <h3 class="text-lg-center fw-bold my-4 py-4" >PROJECTS</h3>
 
-          <div class="projects" class="col col-lg-6 ">
+          <!-- ============  project 1 ===================== -->
+
+          <div class="projects" class="col  col-lg-4 col-xll-1 container-fluid ">
             <video src="./ASSESTS/green garden.mp4" controls class="img-fluid"  height="350px"></video>
             <h4 class="text-white fw-bold my-3 text-center">Indoor Plants Shopping Webpage</h4>
             <div class="d-flex justify-content-center gap-3 my-4">
@@ -308,7 +328,9 @@
               </div>
             </div>
           </div>
-          <div class="projects" class="col col-lg-6 ">
+
+          
+          <div class="projects" class="col col-lg-4   container-fluid ">
             <video src="./ASSESTS/theblog.mp4" controls class="img-fluid" height="350px"></video>
             <h4 class="text-white fw-bold my-3 text-center ">Blogpage</h4>
             <div class="d-flex justify-content-center gap-3 my-4">
@@ -325,7 +347,7 @@
         <!-- row 2 -->
         <br>
         <div class="row column-gap-lg-3 my-5 py-5">
-          <div class="projects" class="col col-lg-6 ">
+          <div class="projects" class="col col-lg-4 ">
             <video src="./ASSESTS/gate clone.mp4" class="img-fluid" controls  height="350px"></video>
             <h4 class="text-white fw-bold my-3 text-center">GATE Homepage Clone</h4>
             <div class="d-flex justify-content-center gap-3 my-4">
@@ -337,7 +359,7 @@
               </div>
             </div>
           </div>
-          <div class="projects" class="col col-lg-6 ">
+          <div class="projects" class="col col-lg-4 ">
             <video src="./ASSESTS/my portfolio older.mp4" class="img-fluid" controls poster="./ASSESTS/portfolio older poster.png" height="350px"></video>
             <h4 class="text-white fw-bold my-3 text-center ">Old Portfolio</h4>
             <div class="d-flex justify-content-center gap-3 my-4">
@@ -353,7 +375,7 @@
         <!-- row 3 -->
         <br>
         <div class="row column-gap-lg-3 my-5 py-5">
-          <div class="projects" class="col col-lg-6 ">
+          <div class="projects" class="col col-lg-4 ">
             <video src="./ASSESTS/hungrr .mp4" controls class="img-fluid" height="350px"></video>
             <h4 class="text-white fw-bold my-3 text-center">Online Food Order Webpage</h4>
             <div class="d-flex justify-content-center gap-3 my-4">
@@ -365,7 +387,7 @@
               </div>
             </div>
           </div>
-          <div class="projects" class="col col-lg-6 ">
+          <div class="projects" class="col col-lg-4 ">
             <img src="./ASSESTS/facebook clone.png" height="300px" class="img-fluid pb-5" alt="">
             <h4 class="text-white fw-bold  text-center ">Facebook Homepage Clone</h4>
             <!-- <video src="./ASSESTS/theblog.mp4" controls class="img-fluid" height="350px"></video>
